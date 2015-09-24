@@ -1,0 +1,25 @@
+{
+  "name": "example-e2e",
+  "version": "1.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5"
+  },
+  "override": {
+    "jquery": {
+      "main": []
+    }
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.6"
+  }
+}

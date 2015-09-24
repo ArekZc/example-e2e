@@ -1,0 +1,26 @@
+$card-padding: 20px;
+
+.card {
+	box-shadow: 0 2px 0 rgba(0,0,0,.07);
+	padding: $card-padding;
+    display: block;
+	position: relative;
+	margin-bottom: 20px;
+	color: #fff;
+	.content {
+		.stat {
+			font-size: 26px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+	.full-width {
+		margin: 0 -$card-padding;
+	}
+}
+
+@mixin card-variant($bg) {
+	background-color: $bg;
+}
+

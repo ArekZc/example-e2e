@@ -1,0 +1,46 @@
+#widget-visitors {
+	@extend .card;
+	@include card-variant(rgba(28, 168, 221, 0.8));
+}
+
+#widget-users {
+	@extend .card;
+	@include card-variant(rgba(51, 184, 108, 0.8));
+}
+
+#widget-active {
+	@extend .card;
+	@include card-variant(rgba(97, 92, 168, 0.8));
+}
+
+#widget-page-header {
+	@extend h3;
+	@extend .text-uppercase;
+	@extend .page-header;
+	font-weight: 700;
+}
+
+#widget-table {
+	@extend .card;
+	@include card-variant(#fff);
+	& > .content {
+		@extend .full-width;
+	}
+	
+	table {
+		@extend .table;
+		@extend .table-extended;
+		margin-bottom: 0px;
+		color: #333;
+	}
+}
+
+#widget-feed {
+	@extend .card;
+	@include card-variant(#fff);
+}
+
+#widget-form {
+	@extend .card;
+	@include card-variant(#fff);
+}

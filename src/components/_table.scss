@@ -1,0 +1,14 @@
+$table-extended-padding: 17px 25px;
+$table-extended-border-color: #f0f1f5;
+
+.table-extended {
+	thead > tr > th {
+		padding: $table-extended-padding;
+		border-bottom: 1px solid $table-extended-border-color;
+	}
+	
+	tbody > tr > td {
+		padding: $table-extended-padding;
+		border-bottom: 1px solid $table-extended-border-color;
+	}
+}

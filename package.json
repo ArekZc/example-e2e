@@ -1,0 +1,43 @@
+{
+  "name": "example-e2e",
+  "version": "1.0.0",
+  "description": "Example of e2e tests with protractor and cucumber",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "e2e",
+    "angular",
+    "protractor",
+    "cucumber"
+  ],
+  "author": "ArekZc <arekzc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "cucumber": "^0.5.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-help": "^1.6.1",
+    "gulp-inject": "^2.2.0",
+    "gulp-protractor": "^1.0.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-typescript": "^2.9.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-cucumberjs": "0.0.3",
+    "karma-jasmine": "^0.3.6",
+    "q": "^1.4.1",
+    "run-sequence": "^1.1.3",
+    "should": "^7.1.0",
+    "wiredep": "^2.2.2",
+    "yargs": "^3.25.0"
+  }
+}
